@@ -6,5 +6,5 @@
 - Take what varies and “encapsulate” it so it won’t affect the rest of your code. The result? Fewer unintended consequences from code changes and more flexibility in your systems!
 - Es necesario identificar lo que cambia y lo que permanece igual. "fly() y quack() pueden ser diferentes dependiendo la variedad de pato"
 - Gran lección: “Program to an interface” really means "Program to supertype"
-- La solución, segregación de interfaces para acción del pato y cada comportamiento de estas acciones.
-- Por último, las interfaces FlyBehavior y QuackBehavior pasan a componer al Duck, de esta manera se podrá definir dinámicamente estos comportamientos.
+- La solución, segregación de interfaces para las acciones que cambian según el tipo de pato.
+- Por último, las interfaces FlyBehavior y QuackBehavior pasan a COMPONER al Duck, de esta manera se podrá definir dinámicamente estos comportamientos.
